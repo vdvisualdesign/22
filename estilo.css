@@ -1,0 +1,237 @@
+body{background-color:rgb(255, 255, 255);
+margin: 0px;}
+#fone{color: rgb(3, 87, 143);
+text-align: center;
+padding-top: 4%;
+font-size: 20px;
+margin: auto;}
+#logo{width: 100%;}
+#whatsapp{ color: rgb(3, 87, 143);}
+#whatsapprodape{color: rgb(255, 255, 255);}
+#subititulo1{color: rgb(3, 87, 143);
+text-align: center;
+padding-top: 4%;
+font-size: 50px;
+margin: auto;}
+
+#subtitulo1{color: rgb(3, 87, 143);
+text-align: center;
+padding-top: 4%;
+font-size: 50px;
+margin: auto;}
+#subititulo2{color: rgb(3, 87, 143);
+text-align: right;
+font-size: 0px;
+margin: auto;}
+
+    #servisos{background-color:rgb(56, 101, 138)}
+
+#trabalhos{color: rgb(255, 94, 0);
+    text-align: center;
+    padding: 5%;
+    font-size: 50px;
+    margin: auto;}
+#img14{padding-bottom: 10%;}
+
+    #texto{background-color:rgb(56, 101, 138);
+    height: 90%;}
+
+#sobrenos{color: rgb(255, 94, 0);
+text-align: center;
+padding-top: 5%;
+font-size: 50px;
+margin-top: 0%;}
+#t1{color: rgb(255, 94, 0);
+text-align: center;
+font-size: 30px;
+padding-top: 5%;
+margin: 5%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+#texto2{color: rgb(255, 94, 0);
+    text-align: center;
+    font-size: 30px;
+   padding-right: 20%;
+    padding-left: 20%;
+    margin: 5%;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+#img11{padding-top: 0%;}
+#img12{padding-left: 27%;}
+#img13{padding-left: 27%;}
+#img20{padding-left: 27%;
+padding-top: 0%;}
+
+#contato1{padding-left: 15%;
+padding-top: 3%;
+padding-right: 15%;}
+#contatosdiv{padding: 2%;}
+#rodape{background-color:rgb(3, 87, 143);
+margin: 0%;
+padding: 1%;
+width: 98%;
+height: 50%;}
+/*css para ajustar o iconi whatsapp*/
+#icone-whatsapp{ position: fixed;
+bottom: 15Px;
+right: 15px;
+z-index: 999;}
+#img0{padding-top: 2%;}
+#t3{color: rgb(255, 255, 255);
+padding-top: 5%;
+text-align: center;
+font-size: 25px}
+#t4{color: rgb(255, 255, 255);
+padding-top: 3%;
+text-align: center;
+font-size: 25px}
+#img1{padding-left: 44%;
+    padding-right: 0%;
+    padding-top: 3%;}
+#r1{color: rgb(255, 94, 0);
+    padding-top: 0px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    #img2{padding-left: 44%;
+        padding-right: 0%;
+        padding-top: 3%;}
+    #r2{color: rgb(255, 94, 0);
+        padding-top: 0px;
+        text-align: center;
+        font-size: 35px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+        #img3{padding-left: 44%;
+            padding-right: 0%;
+            padding-top: 3%;}
+        #r3{color: rgb(255, 94, 0);
+            padding-top: 0px;
+            text-align: center;
+            font-size: 35px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+#menu{margin: 0px;
+padding: 0px;
+background-color: rgb(255, 255, 255);
+position: fixed;}
+#check{display: none;}
+#iconi{Cursor: pointer;
+padding: 15px;
+position: fixed;
+z-indeX: 1;}
+.barra{background-color: rgb(255, 255, 255);
+height: 100%;
+width: 200px;
+position: absolute;
+position: fixed;
+transition: all .2% linear;
+left: -300px;}
+#nav{width: 100%;
+position: absolute;
+padding-top: 90px;
+list-style: none;}
+.nave a{text-decoration: none;}
+.link{background-color: rgb(255, 255, 255);
+padding: 20px;
+font-family: "Arial";
+font-size: 15px;
+transition: all .2% linear;
+color:rgb(3, 87, 143);
+border-bottom:3px solid rgb(3, 87, 143);
+opacity: 1;}
+.link:hover {background-color:rgb(3, 87, 143);}
+#check:checked ~ .barra{transform: translateX(300px);}
+#check:checked ~ .barra nav a .link{opacity: 1;
+margin-top: 0;}
+
+@media all and (max-width: 768px)
+{
+#logo{ width:100% !important;}
+#t1{width: 90%;
+font-size: 20px;
+padding-left: 0%;
+margin: 8px;}
+
+#texto2{font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+    margin: 8px;}
+
+#subititulo1{font-size: 25px;
+text-align: center;}
+#subititulo2{text-align: center;
+font-size: 0px;}
+#sobrenos{text-align: center;
+font-size: 25px;}
+#trabalhos{text-align: center;
+    font-size: 25px;}
+#contatos{text-align: center;
+font-size: 25px;
+padding-bottom: 5%;}
+#rodape{margin: 0%;
+padding: 0%;
+width: 100%;
+height: 50%;}
+#pagamento{font-size: 40px;
+text-align: center;
+padding-top: 10%;}
+#t2{font-size: 30px;
+margin: 1%;}
+#t3{font-size: 20px;
+margin: 7%;
+padding-top: 10%;}
+#contato1{width: 330px; height:230px;
+padding-top: 5%;
+padding: 0%;
+margin: 4%;}
+#icone-whatsapp{height:55px;
+width: 55px;}
+.barra{ width: 200px;
+left: -200px;}
+#check:checked ~ .barra{transform: translateX(200px);}
+.link{font-size: 15px;}
+#iconimenu{height:30px;
+width: 30px;}
+#img10{padding-top: 10%;
+width:100%;
+height:40px;}
+#img1{padding-left: 35%;
+    padding-right: 0%;
+    padding-top: 3%;}
+
+    #img2{padding-left: 35%;
+        padding-right: 0%;
+        padding-top: 3%;}
+   
+        #img3{padding-left: 35%;
+            padding-right: 0%;
+            padding-top: 3%;}
+
+#img14{width:100%;
+     height:45%;
+    margin-top: 15px;}
+
+#img13{width:90%;
+     height:65%;
+     padding-left: 5%;}
+
+#img20{width:90%;
+    height:65%;
+    padding-left: 5%;}
+
+#img12{width:90%;
+     height:60%;
+    padding-left: 5%;}
+
+#img11{width:100%;
+    height:40%;
+    padding-left: 0%;}
+
+#img0{width:100%;
+    height:40%;
+    padding-left: 0%;}
+
+#texto{ height: 65%;}
+   
+   
+
+
+}
